@@ -82,3 +82,8 @@ footer.page-footer {
   margin: 0;
 }
 
+#profile-image {
+  width: 100%;
+  
+  margin:20px 10px 10px 0;
+}
