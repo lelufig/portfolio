@@ -1,34 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <title>Lelu’s　Portfolio</title>
 
-<!--メニュー-->
+  <!--メニュー-->
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 </head>
+
 <body>
-   <nav class="white" role="navigation">
+  <nav class="white" role="navigation">
     <div class="nav-wrapper container">
       <a id="logo-container" href="#" class="brand-logo">Lelu's site</a>
-
-      <ul id="dropdown1" class="dropdown-content">
-        <li><a href="#aboutme">私について</a></li>
-        <li><a href="#works">製作物</a></li>
-        <li><a href="#previous">前職の仕事内容</a></li>
-        <li><a href="#profile">プロフィール</a></li>
-      </ul>
 
       <ul class="right hide-on-med-and-down">
         <li><a href="#index-banner">トップ</a></li>
         <li><a href="#site">このサイトについて</a></li>
-        <li><a class="dropdown-trigger" href="#works" data-target="dropdown1">ポートフォリオ<i class="material-icons right">arrow_drop_down</i></a></li>
+        <li><a class="dropdown-trigger" data-target="dropdown1">ポートフォリオ<i
+              class="material-icons right">arrow_drop_down</i></a></li>
+        <ul id="dropdown1" class="dropdown-content">
+          <li><a href="#aboutme">私について</a></li>
+          <li><a href="#works">製作物</a></li>
+          <li><a href="#previous">前職の仕事内容</a></li>
+          <li><a href="#profile">プロフィール</a></li>
+        </ul>
         <li><a href="#contact">連絡先</a></li>
       </ul>
 
@@ -36,20 +38,20 @@
     </div>
   </nav>
 
-<!--表紙-->
+  <!--表紙-->
 
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
-       <div class="row center">
-        <h1 class="header col s12 light">Lelu’s　Portfolio</h1>
-       </div>
+        <div class="row center">
+          <h1 class="header col s12 light">Lelu’s　Portfolio</h1>
+        </div>
       </div>
     </div>
     <div class="parallax"><img src="img/sea.JPG" alt="Unsplashed background img 1"></div>
   </div>
 
-<!--このサイトについて-->
+  <!--このサイトについて-->
 
   <div class="container" id="site">
     <div class="section">
@@ -69,8 +71,8 @@
     </div>
   </div>
 
-  
-<!--画像2-->
+
+  <!--画像2-->
 
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
@@ -93,148 +95,169 @@
           <h4>About me</h4>
           <div class="col s12 m5 offset-m1">
             <img id="profile-image" src="img/me.JPG" alt="プロフィール画像">
-        </div>
-        <div class="col s12 m6">
-          <p class="left-align light">
-            2020年山梨県立大学卒。都内のIT企業に就職して編集業に携わるも、
-            <br>
-            コロナ禍の状況下で「自分の住みたい場所に住む」ことを決意し、4月末に山梨に移住。
-            <br>
-            学生時代、そして就職後も個人開発していた経験を生かし、システムエンジニアとしての転職を目指しています。
-          </p>
-          <ul class="left-align light">
-            
-            <li>- GitHub: <a href="https://github.com/lelufig" target="_blank" rel="noopener">https://github.com/lelufig</a></li>
-          
-          </ul>
-        </div>
-      </div>
+          </div>
+          <div class="col s12 m6">
+            <p class="left-align light">
+              2020年山梨県立大学卒。都内のIT企業に就職して編集業に携わるも、
+              <br>
+              コロナ禍の状況下で「自分の住みたい場所に住む」ことを決意し、4月末に山梨に移住。
+              <br>
+              学生時代、そして就職後も個人開発していた経験を生かし、システムエンジニアとしての転職を目指しています。
+            </p>
+            <ul class="left-align light">
 
+              <li>- GitHub: <a href="https://github.com/lelufig" target="_blank"
+                  rel="noopener">https://github.com/lelufig</a></li>
+
+            </ul>
+          </div>
+        </div>
+
+      </div>
     </div>
   </div>
 
-  
-  
 
-  
+
+
 
   <!--製作物-->
 
   <div class="container" id="works">
     <div class="section">
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Works</h4>
+        </div>
+
+
+        <div class="grid">
+
+          <figure class="effect-layla">
+            <img src="img/portfolio.png" alt="img01"/>
+            <figcaption>
+              <h2>Nice <span>Lily</span></h2>
+              <p>Lily likes to play with crayons and pencils</p>
+              <a class="waves-effect waves-light btn modal-trigger" href="#">View more</a>
+            </figcaption>			
+          </figure>
+        
+          <!-- ... -->
+          
+        </div>
+
+        <!--   Icon Section   -->
         <div class="row">
-            <div class="col s12 center">
-              <h3><i class="mdi-content-send brown-text"></i></h3>
-              <h4>Works</h4>
+          <div class="col s12 m4">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <div class="sample_box"><img src="img/portfolio.png"></div>
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">ポートフォリオ<i
+                    class="material-icons right">more_vert</i></span>
+                <p><a href="#">This is a link</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Card Title<i
+                    class="material-icons right">close</i></span>
+                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+              </div>
+            </div>
           </div>
 
-    
-    
-      <!--   Icon Section   -->
-  <div class="row">
-    <div class="col s12 m4">
-      <div class="card">
-        <div class="card-image waves-effect waves-block waves-light">
-          <div class="sample_box"><img src="img/portfolio.png"></div>
+
+
+          <div class="col s12 m4">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <div class="sample_box"><img src="img/portfolio.png"></div>
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">単位計算システム<i
+                    class="material-icons right">more_vert</i></span>
+                <p><a href="#">This is a link</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Card Title<i
+                    class="material-icons right">close</i></span>
+                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+              </div>
+            </div>
+          </div>
+
+
+
+
+          <div class="col s12 m4">
+            <div class="card">
+              <div class="card-image waves-effect waves-block waves-light">
+                <div class="sample_box"><img src="img/portfolio.png"></div>
+              </div>
+              <div class="card-content">
+                <span class="card-title activator grey-text text-darken-4">GASを使用した問合せリスト自動化<i
+                    class="material-icons right">more_vert</i></span>
+                <p><a href="#">This is a link</a></p>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Card Title<i
+                    class="material-icons right">close</i></span>
+                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="card-content">
-          <span class="card-title activator grey-text text-darken-4">ポートフォリオ<i class="material-icons right">more_vert</i></span>
-          <p><a href="#">This is a link</a></p>
-        </div>
-        <div class="card-reveal">
-          <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-          <p>Here is some more information about this product that is only revealed once clicked on.</p>
-        </div>
-      </div>
-    </div>
-  
-
-
-  <div class="col s12 m4">
-    <div class="card">
-      <div class="card-image waves-effect waves-block waves-light">
-        <div class="sample_box"><img src="img/portfolio.png"></div>
-      </div>
-      <div class="card-content">
-        <span class="card-title activator grey-text text-darken-4">単位計算システム<i class="material-icons right">more_vert</i></span>
-        <p><a href="#">This is a link</a></p>
-      </div>
-      <div class="card-reveal">
-        <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-        <p>Here is some more information about this product that is only revealed once clicked on.</p>
-      </div>
-    </div>
-  </div>
-
-
-
-
-  <div class="col s12 m4">
-    <div class="card">
-      <div class="card-image waves-effect waves-block waves-light">
-        <div class="sample_box"><img src="img/portfolio.png"></div>
-      </div>
-      <div class="card-content">
-        <span class="card-title activator grey-text text-darken-4">GASを使用した問合せリスト自動化<i class="material-icons right">more_vert</i></span>
-        <p><a href="#">This is a link</a></p>
-      </div>
-      <div class="card-reveal">
-        <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
-        <p>Here is some more information about this product that is only revealed once clicked on.</p>
       </div>
     </div>
   </div>
-</div>
-</div>
-</div>
-</div>
-  
-  
 
-<!--前職の仕事内容-->
+
+
+  <!--前職の仕事内容-->
   <div class="container" id="previous">
     <div class="section">
-        <div class="row">
-            <div class="col s12 center">
-              <h3><i class="mdi-content-send brown-text"></i></h3>
-              <h4>Previous work</h4>
-          </div>
-    
-      <!--   Icon Section   -->
       <div class="row">
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">contact_mail</i></h2>
-            <h5 class="center">お問い合わせ対応</h5>
-
-            <p class="light"></p>
-          </div>
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Previous work</h4>
         </div>
 
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">mode_edit</i></h2>
-            <h5 class="center">記事作成</h5>
+        <!--   Icon Section   -->
+        <div class="row">
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center brown-text"><i class="material-icons">contact_mail</i></h2>
+              <h5 class="center">お問い合わせ対応</h5>
 
-            <p class="light"></p>
+              <p class="light"></p>
+            </div>
           </div>
-        </div>
 
-        <div class="col s12 m4">
-          <div class="icon-block">
-            <h2 class="center brown-text"><i class="material-icons">child_friendly</i></h2>
-            <h5 class="center">漫画の編集</h5>
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center brown-text"><i class="material-icons">mode_edit</i></h2>
+              <h5 class="center">記事作成</h5>
 
-            <p class="light"></p>
+              <p class="light"></p>
+            </div>
+          </div>
+
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center brown-text"><i class="material-icons">child_friendly</i></h2>
+              <h5 class="center">漫画の編集</h5>
+
+              <p class="light"></p>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-</div>
 
 
-<!--画像3-->
+  <!--画像3-->
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
@@ -247,44 +270,46 @@
   </div>
 
 
-<!--連絡先-->
+  <!--連絡先-->
 
   <div class="container" id="contact">
     <div class="section">
 
-  <div class="row">
-    <div class="col s12 center">
-      <h3><i class="mdi-content-send brown-text"></i></h3>
-      <h4>contact me</h4>
-      <p class="center-align light">最後までご覧いただきありがとうございました。
-        <br>
-        このサイトを通して、私のことを少しでも知っていただけたのなら嬉しいです。
-        <br>
-        もしこのサイトや私について何かコメントがありましたら、下記フォームをご利用ください。</p>
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>contact me</h4>
+          <p class="center-align light">最後までご覧いただきありがとうございました。
+            <br>
+            このサイトを通して、私のことを少しでも知っていただけたのなら嬉しいです。
+            <br>
+            もしこのサイトや私について何かコメントがありましたら、下記フォームをご利用ください。</p>
+        </div>
+      </div>
+      <div class="col s12 aos-init aos-animate" data-aos="fade-up" data-aos-duration="500" data-aos-once="true">
+        <form method="POST"
+          action="https://docs.google.com/spreadsheets/d/1Q9KGg_8hOsSh0PvAwyElfs2nTqn-JoQZroMtRlGw-7k/edit?usp=sharing">
+          <div class="input-field col s6 offset-m2 m4">
+            <input id="name" name="name" type="text" required="">
+            <label for="name">Name</label>
+          </div>
+          <div class="input-field col s6 m4">
+            <input id="email" name="email" type="email" required="">
+            <label for="email">Email</label>
+          </div>
+          <div class="input-field col s12 offset-m2 m8">
+            <textarea id="textarea" name="message" class="materialize-textarea" required=""></textarea>
+            <label for="textarea">Comment</label>
+          </div>
+          <div class="input-field col s12 offset-m2 m8 center-align">
+            <button type="submit" class="waves-effect waves-light btn led-color-of-btn">Send</button>
+          </div>
+        </form>
+      </div>
+
+      　
     </div>
   </div>
-  <div class="col s12 aos-init aos-animate" data-aos="fade-up" data-aos-duration="500" data-aos-once="true">
-    <form method="POST" action="https://docs.google.com/spreadsheets/d/1Q9KGg_8hOsSh0PvAwyElfs2nTqn-JoQZroMtRlGw-7k/edit?usp=sharing">
-      <div class="input-field col s6 offset-m2 m4">
-        <input id="name" name="name" type="text" required="">
-        <label for="name">Name</label>
-      </div>
-      <div class="input-field col s6 m4">
-        <input id="email" name="email" type="email" required="">
-        <label for="email">Email</label>
-      </div>
-      <div class="input-field col s12 offset-m2 m8">
-        <textarea id="textarea" name="message" class="materialize-textarea" required=""></textarea>
-        <label for="textarea">Comment</label>
-      </div>
-      <div class="input-field col s12 offset-m2 m8 center-align">
-        <button type="submit" class="waves-effect waves-light btn led-color-of-btn">Send</button>
-      </div>
-    </form>
-  </div>
-
-　</div>
-</div>
 
 
 
@@ -299,5 +324,6 @@
     AOS.init();
   </script>
 
-  </body>
+</body>
+
 </html>
